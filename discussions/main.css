@@ -1,0 +1,152 @@
+body {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+  color: #353535;
+  font-family: Arial;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 1.54em;
+}
+h1 {
+  color: #666666;
+  font-family: inherit;
+  font-weight: normal;
+  font-size: 1.76923077em;
+  line-height: 1.08695652em;
+  margin: 0em 0em 0.65217391em 0em;
+}
+button,
+input[type=button] {
+  border-radius: 3px;
+  border: 1px solid #cccccc;
+  cursor: pointer;
+  display: inline-block;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: normal;
+  margin: 0;
+  min-height: 28px;
+  padding: 5px 10px;
+  text-align: center;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: auto;
+}
+button:after,
+input[type=button]:after {
+  content: " ";
+  width: 0;
+}
+button::-moz-focus-inner,
+input[type=button]::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+button,
+input[type=button],
+button:visited,
+input[type=button]:visited,
+button:link,
+input[type=button]:link,
+button:hover,
+input[type=button]:hover,
+button:focus,
+input[type=button]:focus,
+button.vui-disabled:hover,
+input[type=button].vui-disabled:hover,
+button.vui-disabled:focus,
+input[type=button].vui-disabled:focus,
+button[disabled]:hover,
+input[type=button][disabled]:hover,
+button[disabled]:focus,
+input[type=button][disabled]:focus {
+  background: #f8f8f8;
+  background: linear-gradient(to bottom, #f8f8f8 0%, #f2f2f2 100%);
+  border-color: #cccccc;
+  box-shadow: 0 1px 0 0 #ffffff inset;
+  color: #000000;
+  outline: none;
+  text-decoration: none;
+}
+button.vui-disabled,
+input[type=button].vui-disabled,
+button[disabled],
+input[type=button][disabled] {
+  opacity: 0.5;
+  cursor: default;
+}
+button:hover,
+input[type=button]:hover {
+  border-color: #aeaeae;
+  box-shadow: 0 2px 0 0 #ffffff inset;
+}
+button:focus,
+input[type=button]:focus {
+  border-color: #94ccda;
+  box-shadow: 0 0 1px 0 #f2f2f2 inset, 0 0 3px 1px #94ccda;
+}
+button:hover,
+input[type=button]:hover,
+button:focus,
+input[type=button]:focus {
+  background: #fdfdfd;
+  background: linear-gradient(to bottom, #fdfdfd 0%, #fafafa 100%);
+  border-width: 1px;
+  border-style: solid;
+}
+button.primary,
+button.primary.vui-disabled:hover,
+button.primary.vui-disabled:focus,
+button.primary[disabled]:hover,
+button.primary[disabled]:focus {
+  background: #3292aa;
+  background: linear-gradient(to bottom, #3292aa 0%, #017795 100%);
+  border-color: #017795;
+  box-shadow: none;
+  color: #ffffff;
+}
+button.primary:hover {
+  box-shadow: none;
+  border-color: #038eb2;
+}
+button.primary:hover,
+button.primary:focus {
+  background: #33a3c0;
+  background: linear-gradient(to bottom, #33a3c0 0%, #038eb2 100%);
+}
+button.primary:focus {
+  border-color: #038eb2;
+  box-shadow: 0 1px 0 0 #479db3 inset, 0 0 3px 1px #94ccda;
+  color: #ffffff;
+}
+button.primary:link,
+button.primary:visited {
+  color: #ffffff;
+}
+a,
+a:visited,
+a:link,
+a:active {
+  color: #00617f;
+  font-weight: normal;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover,
+a:focus {
+  color: #007795;
+  text-decoration: underline;
+}
+a:focus {
+  border-color: #94ccda;
+  box-shadow: 0 0 1px 0 #f2f2f2 inset, 0 0 1px 1px #94ccda;
+  outline-width: 0;
+}
+a.main,
+a.main:visited,
+a.main:link,
+a.main:active {
+  font-weight: bold;
+}
